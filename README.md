@@ -1,1 +1,1 @@
-# dapp-bootcamp
+# dapp-bootcamps
