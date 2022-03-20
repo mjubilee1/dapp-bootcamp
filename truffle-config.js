@@ -12,6 +12,7 @@ module.exports = {
   },
   contracts_directory: './src/contracts/',
   contracts_build_directory: './src/abis/',
+	test_directory: './test/',
   compilers: {
     solc: {
 			version: '0.8.13',
