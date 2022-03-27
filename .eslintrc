@@ -1,22 +1,12 @@
 {
+	"root": true,
 	"parser": "@typescript-eslint/parser",
-	"files": ["*.ts", "*.js"],
-	"parserOptions": { "project": ["./tsconfig.json"], "ecmaVersion": "latest", "sourceType": "module" },
 	"plugins": [
-	  "@typescript-eslint",
-	  "react",
-	  "mocha",
-	  "prettier"
+	  "@typescript-eslint"
 	],
 	"extends": [
-	  "plugin:react/recommended",
 	  "eslint:recommended",
-	  "plugin:prettier/recommended",
-	  "plugin:mocha/recommended",
 	  "plugin:@typescript-eslint/eslint-recommended",
 	  "plugin:@typescript-eslint/recommended"
-	],
-	"rules": {
-		"react/react-in-jsx-scope": "off"
-	}
+	]
 }

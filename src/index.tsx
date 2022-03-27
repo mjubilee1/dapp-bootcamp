@@ -1,7 +1,7 @@
 import React from 'react'
 import ReactDOM from 'react-dom'
 import './css/tailwind.css'
-import App from './App'
+import App from './components/App'
 
 ReactDOM.render(
   <React.StrictMode>
