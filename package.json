@@ -46,6 +46,7 @@
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
+		"scripts": "truffle exec scripts/seed-exchange.js",
     "lint": "eslint .",
     "lint:contracts": "solhint ./src/contracts/*.sol",
     "lint:fix": "eslint --fix",
